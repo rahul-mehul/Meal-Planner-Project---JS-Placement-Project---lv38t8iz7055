@@ -2,14 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./App.js" defer></script>
 </head>
 
 <body>
+    <div class="screen_Wrapper">
+        <!-- NAVBAR-SECTION -->
+        <nav class="navbar">
+            <section class="logo">
+                <span class="meal">Meal</span>
+                <span class="planner">Planner</span>
+            </section>
+        </nav>
+        <!-- FORM-SECTION -->
+        <div class="display_container">
+            <section class="form_details">
+                <form action="" id="form">
+                    <div class="first_line">
+                        <input type="text" id="height" placeholder="Enter Height in CMS" required>
+                        <input type="text" id="weight" placeholder="Enter weight in KG" required>
+                        <input type="text" id="age" placeholder="Enter Age" required>
+                    </div>
 
+                    <div class="second_line">
+                        <select name="" id="gender">
+                            <option value="">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+
+                        </select>
+                        <select name="" id="activity_level">
+                            <option value="">Physical Activity</option>
+                            <option value="1.375">Lightly</option>
+                            <option value="1.55">Moderatly</option>
+                            <option value="1.725">Active</option>
+
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" id="submit-btn">Generate Meals</button>
+                </form>
+            </section>
+            <!-- MEAL SECTIONS -->
+            <section class="meals_container" id="meals_container">
+
+            </section>
+
+            <!-- RECIPIE SECTION -->
+            <section class="recipie_container" id="recipie_container">
+
+            </section>
+
+        </div>
+    </div>
 </body>
 
 </html>
