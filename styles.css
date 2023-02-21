@@ -46,7 +46,7 @@
 
 /* DISPLAY CONTAINER */
 .display_container {
-    max-width: 1000px;
+    width: 90%;
     margin: auto;
     background-image: url("https://thumbs.dreamstime.com/b/healthy-food-selection-healthy-food-selection-fruits-vegetables-seeds-superfood-cereals-gray-background-121936825.jpg");
     background-repeat: no-repeat;
